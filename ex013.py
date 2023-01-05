@@ -1,0 +1,5 @@
+#Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.
+
+salario = float(input('Qual o salário atual: '))
+
+print(f'O salário atual é de: {salario} reais, com o aumento, passa a ser: {salario*1.15 :.2f}')
