@@ -1,0 +1,10 @@
+"""Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área
+e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta, pinta uma área de 2m^2
+"""
+
+largura = float(input('Largura da parede: '))
+altura = float(input('Altura da parede: '))
+area = largura * altura
+print(f'A parede tem uma área de {area}m^2')
+
+print(f'{area/2} litros de tinta para pintar a parede')
